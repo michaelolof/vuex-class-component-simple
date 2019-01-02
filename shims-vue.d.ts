@@ -3,6 +3,3 @@ declare module '*.vue' {
   export default Vue
 }
 
-interface VueConstructor {
-  $store:any;
-}
