@@ -18,4 +18,3 @@ export const vxm = {
   alert: AlertStore.CreateProxy( store, AlertStore ) as AlertStore,
 }
 
-// console.log( vxm.counter.value );
