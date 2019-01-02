@@ -4,7 +4,8 @@
   "description": "A simple repo demonstrating how to use vuex-class-component",
   "main": "index.js",
   "scripts": {
-    "start": "cd dist && lite-server || cd .. && webpack --watch",
+    "serve": "cd dist && lite-server",
+    "start": "webpack --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "michaelolof",
